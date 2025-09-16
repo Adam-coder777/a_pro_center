@@ -79,3 +79,4 @@ export function generateStaticParams() {
     { locale: 'kz' }
   ];
 }
+//hello everyone 
