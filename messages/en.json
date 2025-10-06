@@ -19,7 +19,7 @@
   "Footer": {
     "contacts": {
       "title": "2023 A-PRO Ltd. All rights reserved.",
-      "phone": "Phone: +7 (777) 392-72-27",
+      "phone": "Phone",
       "address": "Address: Kazakhstan, Astana city, Nura district, 56 Turan Avenue, apartment 8, postal code 010000",
       "email": "info@a-pro.center / ais.pro.kz@gmail.com"
     },
@@ -224,7 +224,7 @@
     "addressTitle": "Address",
     "address": "Kazakhstan, Astana, Nura district, Turan Avenue, 56, apt. 8, postal code 010000",
     "phoneTitle": "Phone",
-    "phone": "+7 (777) 392-72-27",
+    "phone": "+7 (778) 130-99-77",
     "email": "info@a-pro.center/ais.pro.kz@gmail.com",
     "socialTitle": "Social networks"
   }
