@@ -57,8 +57,11 @@ export default function Header() {
             <Link href={`/${locale}/about`} className="px-4 py-2 rounded-full font-semibold text-[#22543d] bg-[#f7ede2] shadow hover:bg-[#fbbf24]/80 hover:text-white transition-all focus:outline-none focus:ring-2 focus:ring-[#fbbf24] whitespace-nowrap">
               {t('about')}
             </Link>
-            <Link href={`/${locale}/services`} className="px-4 py-2 rounded-full font-semibold text-[#22543d] bg-[#f7ede2] shadow hover:bg-[#fbbf24]/80 hover:text-white transition-all focus:outline-none focus:ring-2 focus:ring-[#fbbf24] whitespace-nowrap">
+           <Link href={`/${locale}/services`} className="px-4 py-2 rounded-full font-semibold text-[#22543d] bg-[#f7ede2] shadow hover:bg-[#fbbf24]/80 hover:text-white transition-all focus:outline-none focus:ring-2 focus:ring-[#fbbf24] whitespace-nowrap">
               {t('services')}
+            </Link>
+            <Link href={`/${locale}/community`} className="px-4 py-2 rounded-full font-semibold text-[#22543d] bg-[#f7ede2] shadow hover:bg-[#fbbf24]/80 hover:text-white transition-all focus:outline-none focus:ring-2 focus:ring-[#fbbf24] whitespace-nowrap">
+              {t('community')}
             </Link>
             <Link href={`/${locale}/contacts`} className="px-4 py-2 rounded-full font-semibold text-[#22543d] bg-[#f7ede2] shadow hover:bg-[#fbbf24]/80 hover:text-white transition-all focus:outline-none focus:ring-2 focus:ring-[#fbbf24] whitespace-nowrap">
               {t('contacts')}
@@ -84,8 +87,11 @@ export default function Header() {
               <Link href={`/${locale}/about`} className="px-4 py-3 rounded-full font-semibold text-[#22543d] bg-[#f7ede2] shadow hover:bg-[#fbbf24]/80 hover:text-white transition-all whitespace-nowrap" onClick={() => setMenuOpen(false)}>
                 {t('about')}
               </Link>
-              <Link href={`/${locale}/services`} className="px-4 py-3 rounded-full font-semibold text-[#22543d] bg-[#f7ede2] shadow hover:bg-[#fbbf24]/80 hover:text-white transition-all whitespace-nowrap" onClick={() => setMenuOpen(false)}>
+             <Link href={`/${locale}/services`} className="px-4 py-3 rounded-full font-semibold text-[#22543d] bg-[#f7ede2] shadow hover:bg-[#fbbf24]/80 hover:text-white transition-all whitespace-nowrap" onClick={() => setMenuOpen(false)}>
                 {t('services')}
+              </Link>
+              <Link href={`/${locale}/community`} className="px-4 py-3 rounded-full font-semibold text-[#22543d] bg-[#f7ede2] shadow hover:bg-[#fbbf24]/80 hover:text-white transition-all whitespace-nowrap" onClick={() => setMenuOpen(false)}>
+                {t('community')}
               </Link>
               <Link href={`/${locale}/contacts`} className="px-4 py-3 rounded-full font-semibold text-[#22543d] bg-[#f7ede2] shadow hover:bg-[#fbbf24]/80 hover:text-white transition-all whitespace-nowrap" onClick={() => setMenuOpen(false)}>
                 {t('contacts')}

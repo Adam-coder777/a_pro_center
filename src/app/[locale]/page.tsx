@@ -1,9 +1,10 @@
 import { useTranslations } from 'next-intl';
-import Link from 'next/link';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   const t = useTranslations('Home');
+
   return (
     <main>
       {/* Hero Section */}
@@ -71,18 +72,12 @@ export default function Home() {
           <div className="bg-white rounded-3xl shadow-2xl p-12 max-w-2xl w-full text-center mx-auto">
             <h3 className="text-3xl font-extrabold mb-8 text-[#22543d] tracking-tight">{t('advantages.title')}</h3>
             <ul className="space-y-6">
-              <li className="flex items-center justify-center gap-3 text-lg">
-                <span className="text-green-500 text-2xl">✓</span>
-                <span className="text-[#22543d] font-medium">{t('advantages.items.0')}</span>
-              </li>
-              <li className="flex items-center justify-center gap-3 text-lg">
-                <span className="text-green-500 text-2xl">✓</span>
-                <span className="text-[#22543d] font-medium">{t('advantages.items.1')}</span>
-              </li>
-              <li className="flex items-center justify-center gap-3 text-lg">
-                <span className="text-green-500 text-2xl">✓</span>
-                <span className="text-[#22543d] font-medium">{t('advantages.items.2')}</span>
-              </li>
+              {(t.raw('advantages.items') as string[]).map((item, index) => (
+                <li key={index} className="flex items-center justify-center gap-3 text-lg">
+                  <span className="text-green-500 text-2xl">✓</span>
+                  <span className="text-[#22543d] font-medium">{item}</span>
+                </li>
+              ))}
             </ul>
           </div>
         </div>

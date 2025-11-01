@@ -78,8 +78,8 @@ export default function About() {
                 personSlug = "person3";
               }
               const cardContent = (
-                <div className="flex flex-col items-center bg-white rounded-2xl shadow-xl p-8 w-80 max-w-full">
-                  <div className="w-40 h-40 rounded-full border-2 border-[#22543d] flex items-center justify-center mb-4 overflow-hidden bg-white shadow-lg">
+                <div className="flex flex-col items-center bg-white rounded-2xl shadow-xl p-8 w-80 max-w-full h-full border-2 border-[#fbbf24]">
+                  <div className="w-40 h-40 rounded-full border-4 border-[#fbbf24] flex items-center justify-center mb-4 overflow-hidden bg-white shadow-lg">
                     <Image src={member.photo || '/default.jpg'} alt={member.name} width={160} height={160} className="w-full h-full object-cover rounded-full" />
                   </div>
                   <h2 className="text-lg font-bold mb-1 text-center">{member.name}</h2>
@@ -90,12 +90,12 @@ export default function About() {
                 <Link
                   href={`/${locale}/about/${personSlug}`}
                   target="_blank"
-                  className="hover:scale-105 transition-transform"
+                  className="flex hover:scale-105 transition-transform"
                 >
                   {cardContent}
                 </Link>
               ) : (
-                <div>{cardContent}</div>
+                <div className="flex">{cardContent}</div>
               );
             })}
           </div>

@@ -79,4 +79,4 @@ export function generateStaticParams() {
     { locale: 'kz' }
   ];
 }
-//hello everyone 
+//hello everyone рррррррррррррррррррррррррр

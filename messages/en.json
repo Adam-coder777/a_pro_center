@@ -10,18 +10,19 @@
   "Navigation": {
     "home": "Home",
     "about": "About us",
+    "community": "A-PRO Community",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
     "logoAlt": "NESPI logo",
-    "services": " Main directions",
+    "services": "Key directions",
     "contacts": "Contacts"
   },
   "Footer": {
     "contacts": {
-      "title": "2023 A-PRO Ltd. All rights reserved.",
+      "title": "2024 A-PRO Ltd. All rights reserved.",
       "phone": "Phone",
       "address": "Address: Kazakhstan, Astana city, Nura district, 56 Turan Avenue, apartment 8, postal code 010000",
-      "email": "info@a-pro.center / ais.pro.kz@gmail.com"
+      "email": "ais.pro.kz@gmail.com / info@a-pro.center"
     },
     "social": {
       "title": "Social networks"
@@ -50,12 +51,15 @@
       "title": "Our advantages",
       "items": [
         "Professional team",
+        "International experts",
+        "Unique author's programs",
         "Eco-friendly client orientation",
-        "Quality guarantee"
+        "Quality guarantee",
+        "Supportive Community"
       ]
     },
     "howWeWork": {
-      "title": "How we work",
+      "title": "Your journey with us",
       "cards": [
         {"title": "Analysis", "desc": "We study your tasks and goals"},
         {"title": "Idea", "desc": "We offer a concept and strategy"},
@@ -78,14 +82,14 @@
     "aboutImageAlt": "About us",
     "mission": {
       "title": "Our mission",
-      "desc": "Our mission is to provide a platform for knowledge and experience exchange among experts, as well as to promote the implementation of innovative solutions in various fields. We actively work on creating quality content, conducting research, organizing events, and building cooperation networks. We believe that joint actions can lead to significant changes and growth."
+      "desc": "Our mission is to create a platform for the exchange of knowledge and experience between experts, as well as to promote the implementation of innovative solutions in various fields. We are actively working on quality content, conducting research, organizing events, and building cooperation networks. We believe that joint actions can lead to significant changes and growth."
     },
     "vision": {
       "title": "Our vision",
       "desc": "We strive to create a space for cooperation and dialogue between specialists from different fields. Our goal is to form a society where knowledge and skills are effectively used to solve current problems and for overall development. We believe that through cooperation, it is possible to achieve harmony and sustainability on a global level."
     },
     "team": {
-      "title": "Our team",
+      "title": "Founders",
       "members": [
         {
           "name": "Ainur Ishimgaliyeva",
@@ -136,7 +140,6 @@
     "back": "Back"
   },
   "Services": {
-    "title": "Our Services",
     "list": [
       {
         "title": "Language Training/Foreign Languages",
@@ -214,6 +217,12 @@
           "Service integration",
           "Data security"
         ]
+      },
+      {
+        "title": "Supportive Community",
+        "description": "Поддерживающее сообщество Комьюнити для коллаборации, интервизии, супервизии. Динамичное сообщество для экспертов всех направлений, обмен опытом, развитие практики, буст экспертности.",
+        "icon": "/images/logo0.jpg",
+        "features": []
       }
     ]
   },
@@ -225,7 +234,27 @@
     "address": "Kazakhstan, Astana, Nura district, Turan Avenue, 56, apt. 8, postal code 010000",
     "phoneTitle": "Phone",
     "phone": "+7 (778) 130-99-77",
-    "email": "info@a-pro.center/ais.pro.kz@gmail.com",
+    "email": "ais.pro.kz@gmail.com/info@a-pro.center",
     "socialTitle": "Social networks"
+  },
+   "Community": {
+    "title": "Community Member Benefits",
+    "benefits": [
+      { "icon": "🚴‍♂️", "title": "Intervision-exchange of expertise/Networking" },
+      { "icon": "🏠", "title": "Opportunity to conduct your own master classes, games once a month" },
+      { "icon": "💵", "title": "Help in publishing expert articles and posting them online,\nas well as editing according to control standards" },
+      { "icon": "🚗", "title": "Access to international trainings, a group of like-minded people,\ngroup trips" },
+      { "icon": "✈️", "title": "Trekking and masterminds" },
+      { "icon": "⭐", "title": "Access to international speakers" },
+      { "icon": "💻", "title": "Recordings of master classes, trainings within the club" },
+      { "icon": "🌐", "title": "Help with presenting your master classes" },
+      { "icon": "⏰", "title": "Access to experts and experience exchange" }
+    ],
+    "quote": "Будущее принадлежит тем, кто верит в красоту своих мечтаний",
+    "author": "Элеонора Рузвельт"
+  },
+  "LanguageSwitcher": {
+    "switcherLabel": "Select language",
+    "currentLanguage": "Current language"
   }
 }

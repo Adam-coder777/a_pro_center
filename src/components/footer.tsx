@@ -30,7 +30,7 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4 text-[#22543d]">{t('contacts.title')}</h3>
             <ul className="space-y-2 text-[#22543d]/80">
               <li>{t('contacts.phone')}: +7 (778) 130-99-77</li>
-              <li>Email: <span className="text-[#fbbf24]">info@a-pro.center / ais.pro.kz@gmail.com</span></li>
+              <li>Email: <span className="text-[#fbbf24]">ais.pro.kz@gmail.com /info@a-pro.center </span></li>
               <li>{t('contacts.address')}</li>
             </ul>
           </div>
