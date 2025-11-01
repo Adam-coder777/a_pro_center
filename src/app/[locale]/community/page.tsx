@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 import { Sparkles, Users, Target, Heart } from "lucide-react";
-
+import Link from 'next/link';
 const benefits = [
   { icons: ['🚴‍♂️', '🚴‍♂️', '🚴‍♂️', '🚴‍♂️', '🚴‍♂️'], text: 'Интервизия-обмен\nэкспертностью/Нетворкинг' },
   { icons: ['🏠', '🏠', '🏠', '🏠', '🏠'], text: 'Возможность\nпроведения своих\nмастер-классов, игр\nодин раз в месяц' },
@@ -118,12 +118,13 @@ export default function CommunityPage() {
             <p className="text-xl text-white/90 mb-8 leading-relaxed">
               Станьте частью поддерживающего сообщества экспертов, где ваши мечты превращаются в реальность
             </p>
-            <a
-              href="/contacts"
-              className="inline-block bg-[#fbbf24] hover:bg-[#f59e0b] text-[#22543d] font-bold text-lg px-10 py-4 rounded-full shadow-xl transition-all duration-300 hover:scale-110 hover:shadow-2xl"
-            >
-              Связаться с нами
-            </a>
+            <Link
+  href="/contacts"
+  className="inline-block bg-[#fbbf24] hover:bg-[#f59e0b] text-[#22543d] font-bold text-lg px-10 py-4 rounded-full shadow-xl transition-all duration-300 hover:scale-110 hover:shadow-2xl"
+>
+  Связаться с нами
+</Link>
+
           </div>
         </div>
       </section>
