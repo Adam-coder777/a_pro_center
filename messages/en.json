@@ -19,7 +19,7 @@
   },
   "Footer": {
     "contacts": {
-      "title": "2024 A-PRO Ltd. All rights reserved.",
+      "title": "2025 A-PRO Ltd. All rights reserved.",
       "phone": "Phone",
       "address": "Address: Kazakhstan, Astana city, Nura district, 56 Turan Avenue, apartment 8, postal code 010000",
       "email": "ais.pro.kz@gmail.com / info@a-pro.center"
@@ -27,7 +27,7 @@
     "social": {
       "title": "Social networks"
     },
-    "copyright": "A-PRO Ltd. All rights reserved.",
+    "copyright": "2025 A-PRO Ltd. All rights reserved.",
     "company": {
       "title": "About the company",
       "description": "A-PRO Ltd is an innovative company specializing in the development of advanced solutions for business."
@@ -220,7 +220,7 @@
       },
       {
         "title": "Supportive Community",
-        "description": "Поддерживающее сообщество Комьюнити для коллаборации, интервизии, супервизии. Динамичное сообщество для экспертов всех направлений, обмен опытом, развитие практики, буст экспертности.",
+        "description": "A community for collaboration, intervision, and supervision. A dynamic community for experts from all fields to exchange experience, develop their practice, and boost their expertise.",
         "icon": "/images/logo0.jpg",
         "features": []
       }
@@ -237,6 +237,27 @@
     "email": "ais.pro.kz@gmail.com/info@a-pro.center",
     "socialTitle": "Social networks"
   },
+   "CommunityPage": {
+    "features": {
+      "collaboration": {
+        "title": "Collaboration",
+        "description": "We unite experts from different fields to exchange experience and create innovative solutions"
+      },
+      "development": {
+        "title": "Development",
+        "description": "Continuous professional development and support for the ambitious goals of each resident"
+      },
+      "support": {
+        "title": "Support",
+        "description": "We create an atmosphere of mutual assistance and support where everyone can realize their potential"
+      }
+    },
+    "cta": {
+      "title": "Join us!",
+      "description": "Become part of a supportive community of experts where horizons expand!",
+      "button": "Contact us"
+    }
+  },
    "Community": {
     "title": "Community Member Benefits",
     "benefits": [
@@ -246,11 +267,11 @@
       { "icon": "🚗", "title": "Access to international trainings, a group of like-minded people,\ngroup trips" },
       { "icon": "✈️", "title": "Trekking and masterminds" },
       { "icon": "⭐", "title": "Access to international speakers" },
-      { "icon": "💻", "title": "Recordings of master classes, trainings within the club" },
+      { "icon": "💻", "title": "Recordings of master classes and trainings within the club" },
       { "icon": "🌐", "title": "Help with presenting your master classes" },
       { "icon": "⏰", "title": "Access to experts and experience exchange" }
     ],
-    "quote": "Будущее принадлежит тем, кто верит в красоту своих мечтаний",
+    "quote": "The future belongs to those who believe in the beauty of their dreams",
     "author": "Элеонора Рузвельт"
   },
   "LanguageSwitcher": {

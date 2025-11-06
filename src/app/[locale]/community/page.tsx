@@ -1,20 +1,11 @@
 import { useTranslations } from "next-intl";
 import { Sparkles, Users, Target, Heart } from "lucide-react";
 import Link from 'next/link';
-const benefits = [
-  { icons: ['🚴‍♂️', '🚴‍♂️', '🚴‍♂️', '🚴‍♂️', '🚴‍♂️'], text: 'Интервизия-обмен\nэкспертностью/Нетворкинг' },
-  { icons: ['🏠', '🏠', '🏠', '🏠', '🏠'], text: 'Возможность\nпроведения своих\nмастер-классов, игр\nодин раз в месяц' },
-  { icons: ['💵', '💵', '💵', '💵', '💵', '💵', '💵'], text: 'Помощь в публикации\nэкспертных статей и\nразмещении их в интернете,\nплюс редакция согласно нормам\nконтроля' },
-  { icons: ['🚗', '🚗', '🚗', '🚗', '🚗'], text: 'Доступ к международным тренингам\nгруппа единомышленников,\nгрупповые поездки' },
-  { icons: ['✈️', '✈️', '✈️', '✈️', '✈️'], text: 'Трекинги\nи мастер-майнды' },
-  { icons: ['⭐', '⭐', '⭐', '⭐', '⭐', '⭐', '⭐'], text: 'Доступ к спикерам\nмеждународного масштаба' },
-  { icons: ['💻', '💻', '💻', '💻', '💻', '💻'], text: 'Записи мастер-\nклассов, тренингов в\nрамках клуба' },
-  { icons: ['🌐', '🌐', '🌐', '🌐', '🌐', '🌐'], text: 'Помощь с\nпрезентацией своих\nмастер-классов' },
-  { icons: ['⏰', '⏰', '⏰', '⏰', '⏰', '⏰'], text: 'Доступ к экспертам и обмен\nопытом' },
-];
 
 export default function CommunityPage() {
   const t = useTranslations("Community");
+  const tPage = useTranslations("CommunityPage");
+  const benefits = t.raw('benefits') as { icon: string; title: string }[];
 
   return (
     <main className="min-h-screen bg-gradient-to-br from-[#f7ede2] via-[#fef3c7] to-[#f7ede2]">
@@ -67,22 +58,22 @@ export default function CommunityPage() {
               <div className="bg-gradient-to-br from-[#fbbf24] to-[#f59e0b] w-16 h-16 rounded-full flex items-center justify-center mb-6 shadow-lg">
                 <Users className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-2xl font-bold text-[#22543d] mb-4">Сотрудничество</h3>
-              <p className="text-[#22543d]/80 leading-relaxed">Объединяем экспертов из разных областей для обмена опытом и создания инновационных решений</p>
+              <h3 className="text-2xl font-bold text-[#22543d] mb-4">{tPage('features.collaboration.title')}</h3>
+              <p className="text-[#22543d]/80 leading-relaxed">{tPage('features.collaboration.description')}</p>
             </div>
             <div className="bg-white/90 rounded-2xl shadow-xl p-8 border-2 border-[#fbbf24] backdrop-blur-md hover:scale-105 transition-transform duration-300">
               <div className="bg-gradient-to-br from-[#fbbf24] to-[#f59e0b] w-16 h-16 rounded-full flex items-center justify-center mb-6 shadow-lg">
                 <Target className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-2xl font-bold text-[#22543d] mb-4">Развитие</h3>
-              <p className="text-[#22543d]/80 leading-relaxed">Постоянное профессиональное развитие и поддержка амбициозных целей каждого участника сообщества</p>
+              <h3 className="text-2xl font-bold text-[#22543d] mb-4">{tPage('features.development.title')}</h3>
+              <p className="text-[#22543d]/80 leading-relaxed">{tPage('features.development.description')}</p>
             </div>
             <div className="bg-white/90 rounded-2xl shadow-xl p-8 border-2 border-[#fbbf24] backdrop-blur-md hover:scale-105 transition-transform duration-300">
               <div className="bg-gradient-to-br from-[#fbbf24] to-[#f59e0b] w-16 h-16 rounded-full flex items-center justify-center mb-6 shadow-lg">
                 <Heart className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-2xl font-bold text-[#22543d] mb-4">Поддержка</h3>
-              <p className="text-[#22543d]/80 leading-relaxed">Создаем атмосферу взаимопомощи и поддержки, где каждый может реализовать свой потенциал</p>
+              <h3 className="text-2xl font-bold text-[#22543d] mb-4">{tPage('features.support.title')}</h3>
+              <p className="text-[#22543d]/80 leading-relaxed">{tPage('features.support.description')}</p>
             </div>
           </div>
         </div>
@@ -95,12 +86,12 @@ export default function CommunityPage() {
             {benefits.map((item, idx) => (
               <div key={idx} className="flex flex-col items-center text-center mb-8">
                 <div className="flex justify-center mb-2 space-x-1">
-                  {item.icons.map((icon, i) => (
-                    <span key={i} className="text-3xl md:text-4xl opacity-40">{icon}</span>
-                  ))}
+                  <span className="text-3xl md:text-4xl opacity-40">
+                    {item.icon}
+                  </span>
                 </div>
                 <div className="text-black text-xl md:text-lg whitespace-pre-line mt-2">
-                  {item.text}
+                  {item.title}
                 </div>
               </div>
             ))}
@@ -113,16 +104,16 @@ export default function CommunityPage() {
         <div className="container mx-auto px-4">
           <div className="bg-gradient-to-r from-[#22543d] to-[#2d6a4f] rounded-3xl shadow-2xl p-12 max-w-4xl mx-auto text-center border-4 border-[#fbbf24]">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-              Присоединяйтесь к нашему сообществу!
+              {tPage('cta.title')}
             </h2>
             <p className="text-xl text-white/90 mb-8 leading-relaxed">
-              Станьте частью поддерживающего сообщества экспертов, где ваши мечты превращаются в реальность
+              {tPage('cta.description')}
             </p>
             <Link
   href="/contacts"
   className="inline-block bg-[#fbbf24] hover:bg-[#f59e0b] text-[#22543d] font-bold text-lg px-10 py-4 rounded-full shadow-xl transition-all duration-300 hover:scale-110 hover:shadow-2xl"
 >
-  Связаться с нами
+  {tPage('cta.button')}
 </Link>
 
           </div>
