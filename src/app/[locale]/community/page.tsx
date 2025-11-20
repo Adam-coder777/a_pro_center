@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 import { Sparkles, Users, Target, Heart } from "lucide-react";
-import Link from 'next/link';
+import { CommunityCta } from "./CommunityCta";
 
 export default function CommunityPage() {
   const t = useTranslations("Community");
@@ -100,25 +100,11 @@ export default function CommunityPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 pb-24">
-        <div className="container mx-auto px-4">
-          <div className="bg-gradient-to-r from-[#22543d] to-[#2d6a4f] rounded-3xl shadow-2xl p-12 max-w-4xl mx-auto text-center border-4 border-[#fbbf24]">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-              {tPage('cta.title')}
-            </h2>
-            <p className="text-xl text-white/90 mb-8 leading-relaxed">
-              {tPage('cta.description')}
-            </p>
-            <Link
-  href="/contacts"
-  className="inline-block bg-[#fbbf24] hover:bg-[#f59e0b] text-[#22543d] font-bold text-lg px-10 py-4 rounded-full shadow-xl transition-all duration-300 hover:scale-110 hover:shadow-2xl"
->
-  {tPage('cta.button')}
-</Link>
-
-          </div>
-        </div>
-      </section>
+      <CommunityCta
+        title={tPage("cta.title")}
+        description={tPage("cta.description")}
+        buttonText={tPage("cta.button")}
+      />
     </main>
   );
 }

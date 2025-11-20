@@ -15,6 +15,7 @@
     "closeMenu": "Close menu",
     "logoAlt": "NESPI logo",
     "services": "Key directions",
+    "nashiUslugi": "Our Services",
     "contacts": "Contacts"
   },
   "Footer": {
@@ -277,5 +278,157 @@
   "LanguageSwitcher": {
     "switcherLabel": "Select language",
     "currentLanguage": "Current language"
+  },
+  "NashiUslugi": {
+    "hero": {
+      "badge": "Course «COACHING FOR ACTIVE MILITARY PERSONNEL AND VETERANS»",
+      "title": "OUR SERVICES",
+      "subtitle": "Educational author's programs of various directions, unique products and materials"
+    },
+    "cta": {
+      "short": "Sign up for the course!",
+      "long": "S I G N   U P   F O R   T H E   C O U R S E !"
+    },
+    "courses": {
+      "cards": [
+        {
+          "id": "expert-pro",
+          "label": "Training course",
+          "title": "«EXPERT – PRO»"
+        },
+        {
+          "id": "confident-english",
+          "label": "Language training",
+          "title": "«CONFIDENT ENGLISH»"
+        },
+        {
+          "id": "coaching-military",
+          "label": "Author's methodology",
+          "title": "«COACHING FOR ACTIVE MILITARY PERSONNEL AND VETERANS»"
+        },
+        {
+          "id": "healthy-team",
+          "label": "Leadership training course",
+          "title": "«HEALTHY TEAM»"
+        }
+      ],
+      "details": [
+        {
+          "id": "expert-pro",
+          "label": "Inside information: Course 1",
+          "title": "Eight-level training course «EXPERT – PRO»",
+          "lead": "TOP-EXPERT with professional competencies in self-positioning and personal branding, as well as coaching and mentoring. With issuance of a verified certificate of established form.",
+          "meta": [
+            {
+              "label": "Duration",
+              "value": "8 months / 256 hours (2 days per month, 16 hours of main training + 16 hours of practice)."
+            },
+            {
+              "label": "Format",
+              "value": "Offline • Online"
+            },
+            {
+              "label": "Course goal",
+              "value": "To prepare highly qualified experts capable of developing personal brands and creating original products."
+            },
+            {
+              "label": "Prerequisites",
+              "value": "Having any coach/mentor certificate or related qualification is welcome."
+            },
+            {
+              "label": "Location and start",
+              "value": "Astana, Kazakhstan. First cohort starts December 13, 2025."
+            }
+          ],
+          "extras": [
+            "All students practice in the active supporting community «A-PRO Community».",
+            "The course is protected by copyright and is intellectual property according to the legislation of the Republic of Kazakhstan and the Berne Convention."
+          ],
+          "links": [
+            {
+              "label": "Apply to A-PRO Community",
+              "href": "https://forms.gle/36BCa1ozVzANrLau7"
+            }
+          ]
+        },
+        {
+          "id": "confident-english",
+          "label": "Inside information: Course 2",
+          "title": "Language training «CONFIDENT ENGLISH»",
+          "lead": "Unique intensive English course «CONFIDENT ENGLISH». Duration: 3 months, 54 hours total (2 times per week, 1.5 hours main classes + 1 time per week, 1.5 hours conversation club).",
+          "meta": [
+            {
+              "label": "Duration",
+              "value": "3 months / 54 academic hours (2 classes + 1 Speaking club per week)."
+            },
+            {
+              "label": "Format",
+              "value": "Offline • Online • Learning platforms"
+            },
+            {
+              "label": "Course goal",
+              "value": "To provide participants with solid knowledge and confident communication skills for real-world use — in career, travel, and everyday communication."
+            },
+            {
+              "label": "Prerequisites",
+              "value": "English proficiency level from A1 to B1. Without English knowledge — individual classes under separate conditions."
+            },
+            {
+              "label": "Location and start",
+              "value": "Astana, Kazakhstan. First cohort starts November 30, 2025."
+            }
+          ],
+          "extras": [
+            "All students practice in the weekly «English Mastery» Speaking club for 1.5 hours.",
+            "The program is aimed at developing conversational and professional competencies, overcoming language barriers, and building confidence."
+          ],
+          "links": [
+            {
+              "label": "Watch video",
+              "href": "https://www.instagram.com/reel/DQ3jMgOjfds/?igsh=MXN0bWhhMGN2dDAwcw=="
+            }
+          ]
+        },
+        {
+          "id": "coaching-military",
+          "label": "Inside information: Course 3",
+          "title": "«COACHING FOR ACTIVE MILITARY PERSONNEL AND VETERANS»",
+          "lead": "The course is in the stage of intellectual property registration.",
+          "meta": [],
+          "extras": [
+            "Publication of the program and enrollment will appear after completion of legal procedures."
+          ],
+          "links": []
+        },
+        {
+          "id": "healthy-team",
+          "label": "Inside information: Course 4",
+          "title": "Leadership training course «HEALTHY TEAM»",
+          "lead": "The course is in the stage of intellectual property registration.",
+          "meta": [],
+          "extras": [
+            "Stay tuned for updates — detailed program, schedule, and participation conditions will be announced soon."
+          ],
+          "links": []
+        }
+      ]
+    },
+    "certificates": {
+      "title": "Certificates",
+      "subtitle": "Documents confirm compliance with international standards and specialist qualifications.",
+      "downloadHint": "Click to download PDF",
+      "downloadButton": "Download PDF",
+      "items": [
+        {
+          "title": "International Certificate",
+          "description": "Professional qualification in accordance with international standards."
+        },
+        {
+          "title": "Author's methodology",
+          "description": "Professional qualification in accordance with international standards."
+        }
+      ]
+    },
+    "back": "Back to services"
   }
 }
