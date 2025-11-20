@@ -1,5 +1,5 @@
 import { getTranslations } from "next-intl/server";
-import { ArrowRight, Award, Download } from "lucide-react";
+import { ArrowRight, Award } from "lucide-react";
 import Link from "next/link";
 
 export default async function ExpertProPage({
