@@ -27,6 +27,17 @@ export default async function ExpertProPage({
     return null;
   }
 
+  const locationPhrases = [
+    "старт первого потока",
+    "first cohort starts",
+    "бірінші ағынның басталуы",
+  ];
+
+  const filteredMeta = course.meta.filter((item) => {
+    const normalized = item.value.toLowerCase();
+    return !locationPhrases.some((phrase) => normalized.includes(phrase));
+  });
+
   return (
     <main className="min-h-screen bg-gradient-to-br from-[#f7ede2] via-[#fef3c7] to-[#f7ede2]">
       <div className="container mx-auto px-4 py-20">
@@ -49,9 +60,9 @@ export default async function ExpertProPage({
             </p>
 
             {/* Meta Information */}
-            {course.meta.length > 0 && (
+            {filteredMeta.length > 0 && (
               <div className="grid gap-4 md:grid-cols-2">
-                {course.meta.map((item, idx) => (
+                {filteredMeta.map((item, idx) => (
                   <div
                     key={idx}
                     className="rounded-2xl bg-[#fef3c7]/70 p-6 border-2 border-[#fbbf24]/30"

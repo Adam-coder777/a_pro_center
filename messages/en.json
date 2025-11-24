@@ -334,10 +334,6 @@
             {
               "label": "Prerequisites",
               "value": "Having any coach/mentor certificate or related qualification is welcome."
-            },
-            {
-              "label": "Location and start",
-              "value": "Astana, Kazakhstan. First cohort starts December 13, 2025."
             }
           ],
           "extras": [
@@ -372,10 +368,6 @@
             {
               "label": "Prerequisites",
               "value": "English proficiency level from A1 to B1. Without English knowledge — individual classes under separate conditions."
-            },
-            {
-              "label": "Location and start",
-              "value": "Astana, Kazakhstan. First cohort starts November 30, 2025."
             }
           ],
           "extras": [
@@ -383,6 +375,10 @@
             "The program is aimed at developing conversational and professional competencies, overcoming language barriers, and building confidence."
           ],
           "links": [
+            {
+              "label": "Apply now",
+              "href": "https://forms.gle/bqp5w3yeLYKNhNPo9"
+            },
             {
               "label": "Watch video",
               "href": "https://www.instagram.com/reel/DQ3jMgOjfds/?igsh=MXN0bWhhMGN2dDAwcw=="
@@ -420,11 +416,11 @@
       "downloadButton": "Download PDF",
       "items": [
         {
-          "title": "International Certificate",
+          "title": "Copyright",
           "description": "Professional qualification in accordance with international standards."
         },
         {
-          "title": "Author's methodology",
+          "title": "Copyright",
           "description": "Professional qualification in accordance with international standards."
         }
       ]
