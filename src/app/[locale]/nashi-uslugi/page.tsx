@@ -76,6 +76,13 @@ export default async function NashiUslugiPage({
       title: certificatesData[1]?.title || "",
       description: certificatesData[1]?.description || "",
     },
+    {
+      id: 3,
+      image: "/фото3.jpeg",
+      pdf: "/Свидетельство_Сборник Упражн_А.Ишимгалиева_М.Нугманов.pdf",
+      title: certificatesData[2]?.title || "",
+      description: certificatesData[2]?.description || "",
+    },
   ];
 
   return (
