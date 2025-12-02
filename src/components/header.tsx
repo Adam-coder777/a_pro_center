@@ -47,7 +47,7 @@ export default function Header() {
           </div>
         </div>
         {/* NESPI title under logo */}
-        <span className="font-bold text-2xl text-[#22543d] mt-2 mb-1 transition-colors duration-200 hover:text-[#fbbf24] cursor-pointer">A-PRO LTD</span>
+        <span className="font-bold text-2xl text-[#22543d] mt-2 mb-1 transition-colors duration-200 hover:text-[#fbbf24] cursor-pointer">A-PRO Limited</span>
         {/* Desktop Navigation */}
         <nav className="w-full overflow-x-auto flex justify-center mt-2 pb-1 hidden md:flex">
           <div className="flex gap-4 md:gap-8 px-2">

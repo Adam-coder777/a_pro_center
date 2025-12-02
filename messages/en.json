@@ -1,6 +1,6 @@
 {
   "IndexPage": {
-    "title": "A-PRO LTD",
+    "title": "A-PRO Limited",
     "description": "Welcome to the Next.js Internationalization (i18n) example! This demo showcases the power of the App Router and how to manage multilingual content seamlessly using next-intl."
   },
   "NotFoundPage": {
@@ -20,7 +20,7 @@
   },
   "Footer": {
     "contacts": {
-      "title": "2025 A-PRO Ltd. All rights reserved.",
+      "title": "2025 A-PRO Limited. All rights reserved.",
       "phone": "Phone",
       "address": "Address: Kazakhstan, Astana city, Nura district, 56 Turan Avenue, apartment 8, postal code 010000",
       "email": "ais.pro.kz@gmail.com / info@a-pro.center"
@@ -28,10 +28,10 @@
     "social": {
       "title": "Social networks"
     },
-    "copyright": "2025 A-PRO Ltd. All rights reserved.",
+    "copyright": "2025 A-PRO Limited. All rights reserved.",
     "company": {
       "title": "About the company",
-      "description": "A-PRO Ltd is an innovative company specializing in the development of advanced solutions for business."
+      "description": "A-PRO Limited is an innovative company specializing in the development of advanced solutions for business."
     }
   },
   "Home": {
@@ -94,7 +94,7 @@
       "members": [
         {
           "name": "Ainur Ishimgaliyeva",
-          "position": "Founder and CEO of A-PRO LTD",
+          "position": "Founder and CEO of A-PRO Limited",
           "photo": "/images/photo3.jpeg"
         },
         {

@@ -1,6 +1,6 @@
 {
   "IndexPage": {
-    "title": "A-PRO LTD",
+    "title": "A-PRO Limited",
     "description": "Добро пожаловать в пример интернационализации Next.js (i18n)! Этот демо-проект демонстрирует возможности App Router и то, как управлять многоязычным контентом с помощью next-intl."
   },
   "NotFoundPage": {
@@ -19,10 +19,10 @@
     "contacts": "Контакты"
   },
   "Footer": {
-    "copyright": "2025 A-PRO Ltd. Все права защищены.",
+    "copyright": "2025 A-PRO Limited. Все права защищены.",
     "company": {
       "title": "О компании",
-      "description": "A-PRO Ltd - это инновационная компания, специализирующаяся на разработке передовых решений для бизнеса."
+      "description": "A-PRO Limited - это инновационная компания, специализирующаяся на разработке передовых решений для бизнеса."
     },
     "contacts": {
       "title": "Контакты",
@@ -93,7 +93,7 @@
       "members": [
         {
           "name": "Айнур Ишимгалиева",
-          "position": "Основатель и CEO A-PRO LTD",
+          "position": "Основатель и CEO A-PRO Limited",
           "photo": "/images/photo3.jpeg"
         },
         {
