@@ -104,6 +104,8 @@ export default function CommunityPage() {
         title={tPage("cta.title")}
         description={tPage("cta.description")}
         buttonText={tPage("cta.button")}
+        applyButtonText={tPage("cta.applyButton")}
+        watchVideoText={tPage("cta.watchVideo")}
       />
     </main>
   );

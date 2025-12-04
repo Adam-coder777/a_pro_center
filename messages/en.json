@@ -256,7 +256,9 @@
     "cta": {
       "title": "Join us!",
       "description": "Become part of a supportive community of experts where horizons expand!",
-      "button": "Contact us"
+      "button": "Contact us",
+      "applyButton": "Apply",
+      "watchVideo": "Watch video"
     }
   },
    "Community": {
